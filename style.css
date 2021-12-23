@@ -1,0 +1,63 @@
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+table {
+    padding: 10% 10% 10% 18%;
+    width: 900px;
+    border-spacing: 10px;
+}
+#header {
+background-color: orange;
+color: white;
+border-radius: 10px;
+}
+.bigtext {
+    font-size: 50px;
+    margin:20px 0 20px 30px;
+    font-family:fantasy;
+}
+.slogan {
+    font-size: 20px;
+    font-family: all;
+}
+/* navigation bar */
+.nav {
+    padding: 20px 0;
+}
+.navtext {
+    margin: 20px;
+}
+p {
+    margin: 20px;
+}
+/* First side bar */
+#firstsidebar {
+    background-color: cornflowerblue;
+}
+ul {
+    background-color: lightblue;
+    padding: 50px 30px 50px 30px;
+}
+/* Main heading */
+.main {
+    width: 500px;
+    text-transform:uppercase;
+    background-color:orangered;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+.subtext{
+	font-family:cursive ;
+}
+.footertext{
+	background-color: gray;
+	right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 0;
+	padding-left: 80px;
+
+}
