@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab3</title>
+</head>
+<body>
+    <form>
+    <table>
+	<tr bgcolor="orange">
+		<td colspan="2">Sign up</td>
+	</tr>
+	<tr bgcolor="#2e4bf0">
+		<td width="150" style="color:white" align="right">Firstname</td>
+		<td width="250"><input type="text" placeholder="Enter First Name..."></td>
+	</tr>
+	<tr bgcolor="#2e4bf0">
+		<td width="150" style="color:white" align="right">Lastname</td>
+		<td width="250"><input type="text" placeholder="Enter Last Name..."></td>
+	</tr>
+	<tr bgcolor="#2e4bf0">
+		<td width="150" style="color:white" align="right">Password</td>
+		<td width="250"><input type="password" id="pwd" name="pwd"></td>
+	</tr>
+	<tr bgcolor="#2e4bf0">
+		<td width="150" style="color:white" align="right">Date of birthday</td>
+		<td width="250" label for="birthday"></label><input type="date" id="birthday" name="birthday"></td>
+	</tr>
+	<tr bgcolor="#2e4bf0">
+		<td width="150" style="color:white" align="right">Gender</td>
+		<td width="250" style="color:white"><input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+    </td>
+	</tr>
+	<tr bgcolor="#2e4bf0">
+		<td width="150" style="color:white" align="right">Country</td>
+		<td width="250">
+			<input list="countries" placeholder="Select your counry...">
+				  <datalist id="countries">
+				    <option value="Mongolia">
+				    <option value="Germany">
+				    <option value="Canada">
+				    <option value="USA">
+				    <option value="South Korea">
+				    <option value="Others">
+				  </datalist></td>
+	</tr>
+	
+	<tr bgcolor="#2e4bf0">
+		<td width="150" style="color:white" align="right">Comment</td>
+		<td width="250">
+			<textarea name="comment" form="usrform" placeholder="Type your comment here..."></textarea></td>
+	</tr>
+	<tr width="250" bgcolor="#eb9f7f">
+		<td colspan="2" style="color:white" align="center">
+				<input type="checkbox" id="" name="vehicle1" value="agree"> I agree to the Term of Use
+			</td>
+	</tr>
+	<tr  width="250" bgcolor="#f5be71" >
+		<td  colspan="2" align="right" >
+			<input align="right" type="button" value="Submit" style="background-color: green;color: white;">
+			<input type="button" value="Cancel" style="background-color: red; color: white;">
+		</td>
+	</tr>
+</table>
+	</form>
+
+</body>
+</html>

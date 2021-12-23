@@ -1,0 +1,14 @@
+.nav{
+	background-color: pink;
+	height: 200px;
+	width: 800px;
+}
+.bar{
+background-color: orange;
+height: 100%;
+width: 25%;
+transition: transform 0.5s linear; 
+}
+.nav:hover .child{
+	transform: translateX(100%);
+}

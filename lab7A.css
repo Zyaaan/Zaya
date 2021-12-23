@@ -1,0 +1,71 @@
+.a,.b,.c,.d,.e,.y{
+display: inline-block;
+width: 100px;
+height:30px;
+padding: 10px;
+color: white;
+text-align: center;
+border:1px;
+background-color: dimgrey
+}
+#first>span.a{
+font-family: 'Bebas Neue', cursive;
+background-color: lightgrey;
+transition: 2s;	
+}
+#first>span.a:hover{
+background-color: dimgrey;
+}
+#first>span.b{
+font-family: 'Bebas Neue', cursive;
+transition: 2s;
+}
+#first>span.b:hover{
+color: black;
+}
+#first>span.c{
+font-family: 'Bebas Neue', cursive;
+transition: 2s ease;
+}
+#first>span.c:hover{
+transform: scale(1.5);
+}
+#first>span.d{
+font-family: 'Bebas Neue', cursive;
+transition: 2s ease;
+}
+#first>span.d:hover{
+transform: scale(0.6);
+}
+#first>span.e{
+font-family: 'Bebas Neue', cursive;
+transition: 2s ease;
+}
+#first>span.e:hover{
+transform: rotate(-30deg);
+}
+.y{
+font-family: 'Bebas Neue', cursive;
+position: absolute;
+background-color: white;
+border:1px solid dimgrey;
+color: dimgrey;
+} 
+.f{display: block;
+	position: relative;
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+}.y{
+	color: black;
+	font-family: 'Bebas Neue', cursive;
+	background-color: white;
+	box-shadow: inset 0 0 0 0 darkgray;
+	transition: ease-in-out 0.3s;
+	outline: none;
+}
+.y:hover{
+	box-shadow: inset 300px 0 0 0 gray;
+    cursor: pointer;
+	color: black;
+}

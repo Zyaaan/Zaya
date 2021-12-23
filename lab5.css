@@ -1,0 +1,45 @@
+table {
+    padding: 30px 30px 30px 280px;
+    width: 900px;
+    border-spacing: 10px;
+}
+/*first side bar*/
+h2{
+    font-family: fantasy;
+}
+h4{
+    font-family: unset;
+    font-size: 60%;
+}
+#a{
+    background-color: pink; 
+    color: white; 
+    padding: 10px 10px 10px 10px;
+}
+/*second side bar*/
+.bigtext{
+    font-family: fantasy; font-size:100% ;
+}
+.big{
+    font-family: cursive; font-size: 80%;
+    text-align: right;
+}
+.text{
+    font-family: cursive; font-size: 80%;
+    text-align: left;
+    padding-left: 0;
+}
+/*third side bar*/
+img{
+    padding: 10px;
+    border-radius: 50%;
+}
+.footertext{
+    font-family: all ;font-size:100% ;
+    background-color: darkgray;color: deeppink;
+    right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    padding-left: 220px
+}

@@ -1,0 +1,50 @@
+#topmenu>li{
+	display: inline-block;
+	background-color: pink;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	width: 150px;
+	height: 50px;
+}
+
+#topmenu>li:hover ul{
+	display: block;
+}
+a{
+    color:white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+a:hover{
+	color: gray;
+}
+#first>li{
+	display: ruby-base;
+	background-color: darkgray;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	width: 150px;
+	height: 50px;
+	float: left;
+}
+#second>li{
+	display: ruby-base;
+	background-color: darkgray;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	width: 150px;
+	height: 50px;
+	float: left;
+}
+.container > ul > li{
+    float: left;
+}
+#first li,
+#second li{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 20px;
+}

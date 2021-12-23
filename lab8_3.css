@@ -1,0 +1,24 @@
+div{
+	margin-right: 40px;
+	display: inline-block;
+	text-align: center;
+	font-family: url(https://www.cssfontstack.com/Arial-Black);
+}
+.nav{
+	background-color: orange;
+	height: 200px;
+	width: 100px;
+	box-shadow: 15px 15px 20px dimgrey;
+}
+.bar{
+	background-color: pink;
+	height: 200px;
+	width: 100px;
+	box-shadow: -15px -15px 30px dimgrey; 
+}
+.ban{
+	background-color: grey;
+	height: 200px;
+	width: 100px;
+	box-shadow: 15px 15px 10px dimgrey;
+}

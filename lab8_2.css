@@ -1,0 +1,17 @@
+div{
+	display: inline-block;
+	border: 3px solid black;
+	font-family: url(https://www.cssfontstack.com/Arial-Black);
+}
+.nav{
+	height: 200px;
+	border-radius: 10px;
+}
+.bar{
+	height: 200px;
+	border-radius: 50px;
+}
+.ban{
+	height: 200px;
+	border-radius: 100px;
+}
