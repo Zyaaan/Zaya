@@ -1,0 +1,47 @@
+.c{ width: 600px;
+	height: 400px;
+	background: #f5da42;
+}
+.a,.b{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.box1{
+	width: 150px;
+	height: 100px;
+	background: #09a9ed;
+	box-sizing: 50px;
+	margin: 20px;
+}
+.box2{
+	width: 150px;
+	height: 150px;
+	background: #d90f34;
+	margin: 20px;
+}
+.box3{
+	width: 150px;
+	height: 120px;
+	background: #730794;
+	margin: 20px;
+}
+.box4{
+	width: 150px;
+	height: 150px;
+	background: #09a9ed;
+	box-sizing: 50px;
+	margin: 20px;
+}
+.box5{
+	width: 150px;
+	height: 150px;
+	background: #d90f34;
+	margin: 20px;
+}
+.box6{
+	width: 150px;
+	height: 150px;
+	background: #730794;
+	margin: 20px;
+}

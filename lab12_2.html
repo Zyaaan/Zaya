@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>2</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var t=prompt("Enter time: ");
+		x=calculateCharges(t);
+		alert(x);
+		function calculateCharges(t){
+			    if(t<=3){
+			    	payment=5000;
+				    return payment;
+			    }
+			    else if(t<24){
+			    	var payment=5000;
+			        var i=4;
+				    while(i<=t){
+				    	i++;
+					payment=payment+1000;
+				}
+			}
+			return payment;
+		}
+	</script>
+</body>
+</html>

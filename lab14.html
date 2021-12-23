@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>1</title>
+</head>
+<body>
+	<button onclick="today()">Today</button>
+    <button onclick="yesterday()">Yesterday</button>
+    <button onclick="tenyearsago()">10yearsAgo</button>
+    <button onclick="sevendaysago()">aWeekAgo</button>
+    <script type="text/javascript">
+        function today(){
+            var d=new Date();
+            alert(d);
+        }
+        function yesterday(){
+            var y1=new Date();
+            y1.setDate(y1.getDate() - 1);
+            alert(y1);
+        }
+        function tenYearsAgo(){
+            var y2=new Date();
+            y2.setFullYear(y2.getFullYear() - 10);
+            alert(y2);
+        }function aWeekAgo(){
+            var y3=new Date();
+            y3.setDate(y3.getDate() - 7);
+            alert(y3);
+        }
+        </script>
+</body>
+</html>
